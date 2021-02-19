@@ -21,3 +21,4 @@ else:
         print("IBAN entered is valid.")
     else:
         print("IBAN entered is invalid.")
+        print("\nPlease check your IBAN number entered and rerun this program")
