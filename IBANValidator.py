@@ -19,7 +19,6 @@ else:
     ibann = int(iban2)
     if ibann % 97 == 1:
         print("IBAN entered is valid.")
-        print("\nPlease rerun the program to check another IBAN number")
     else:
         print("IBAN entered is invalid.")
         print("\nPlease check your IBAN number entered and rerun this program")
